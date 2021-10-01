@@ -1,2 +1,2 @@
-# javascript
+#JavaScript
 Atividades de JavaScript
