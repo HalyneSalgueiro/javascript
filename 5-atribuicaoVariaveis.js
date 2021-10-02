@@ -1,5 +1,5 @@
 console.log("Trabalhando com atribuição de variáveis");
-const idade = 38;
+
 const nome = "Halyne";
 const sobrenome = "Salgueiro";
 
@@ -10,13 +10,18 @@ console.log(nome, sobrenome);
 //maneira usada em JS
 console.log(`Meu nome é ${nome} ${sobrenome}`);
 
-let contador = 0
-contador = contador +1
+let contador = 0;
+contador = contador +1;
 
 nomeCompleto = nome + sobrenome;
 console.log(nomeCompleto);
 
-// variável melhor const do que let
+let idade; // declarando variavel
+idade = 38; // atribuindo valor
+//para declarar é melhor o const
+idade = idade +1;
+console.log(idade);
+
 
 
 
